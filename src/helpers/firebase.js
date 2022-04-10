@@ -4,8 +4,7 @@ import 'firebase/compat/firestore';
 
 import { seedDatabase } from '../seed';
 
-const config = {
-};
+const config = {};
 
 firebase.initializeApp(config);
 const { FieldValue } = firebase.firestore;
