@@ -6,7 +6,6 @@ import * as ALL_ROUTES from './constants/routes';
 const Login = lazy(() => import('./pages/Login'));
 
 function App() {
-  console.log({ Login });
   return (
     <Router>
       <Suspense fallback={<p>Loading...</p>}>
@@ -15,7 +14,6 @@ function App() {
         </Routes>
       </Suspense>
     </Router>
-    // <p>hello</p>
   );
 }
 
